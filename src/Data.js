@@ -128,8 +128,8 @@ export const Clubdata = [
     name: "Portfolio",
     category: "Reactjs",
     discription: "Complete responsive portfolio built using Reactjs , Scss , Framermotion",
-    github: "https://github.com/gaurbprajapati/QR-Based-Resume-builder",
-    live: "https://yogayatahealth.netlify.app/"
+    github: "https://github.com/gaurbprajapati/gaurav-prajapati-portfolio",
+    live: "#"
   },
   {
     id: 4,
