@@ -1,9 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import "./Maincard.scss";
-import { Link } from "react-router-dom";
 import { FiGithub, FiEye } from "react-icons/fi";
-import { BrowserRouter as Router } from "react-router-dom";
 function Maincard(props) {
   return (
     

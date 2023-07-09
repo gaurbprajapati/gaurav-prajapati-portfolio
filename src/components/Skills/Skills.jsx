@@ -4,9 +4,9 @@ import "./Skills.scss";
 import { experiences } from '../../Data';
 import { motion } from "framer-motion";
 
-import { FaPython, FaJava, FaJs, FaCode, FaHtml5, FaCss3, FaReact, FaNodeJs, FaBootstrap, FaGitAlt, FaCodeBranch, FaServer, FaToolbox } from "react-icons/fa";
+import { FaPython, FaJava, FaJs, FaCode, FaHtml5, FaCss3, FaReact, FaNodeJs, FaBootstrap, FaGitAlt, FaServer } from "react-icons/fa";
 import { FaDatabase } from "react-icons/fa";
-import { DiDjango, DiDatabase, DiMongodb, DiVisualstudio, DiPostgresql, DiJavascript1, DiNpm, DiReact, DiNodejsSmall, DiGit, DiCodeigniter, DiHtml5, DiCss3, DiSass } from "react-icons/di";
+import { DiDjango, DiMongodb, DiVisualstudio } from "react-icons/di";
 
 
 const Skills = () => {
