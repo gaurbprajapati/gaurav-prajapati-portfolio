@@ -1,7 +1,6 @@
 import React from 'react';
 import "./Contact.scss";
 import { contacts } from '../../Data';
-import { socialIcons } from '../../Data';
 import { motion } from 'framer-motion';
 import { FaGithub, FaLinkedin, FaDev, FaCodepen, FaEnvelope, FaTwitter } from 'react-icons/fa';
 
@@ -51,7 +50,7 @@ const Contact = () => {
         <a href="mailto:gauravprajapati094@gmail.com" target="_blank" rel="noopener noreferrer">
           <FaEnvelope />
         </a>
-        <a href="#" target="_blank" rel="noopener noreferrer">
+        <a href="https://twitter.com/varu_____" target="_blank" rel="noopener noreferrer">
           <FaTwitter />
         </a>
           </div>
@@ -80,7 +79,7 @@ const Contact = () => {
             transition={{duration: 0.3}}
             className="btn"
           >
-            <a href="#">Send</a>
+            <a href="/">Send</a>
           </motion.div>
         </motion.div>
       </div>
