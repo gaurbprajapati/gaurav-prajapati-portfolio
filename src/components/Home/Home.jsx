@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import Typewriter from 'typewriter-effect';
 import { FaGithub, FaLinkedin, FaDev, FaCodepen, FaEnvelope, FaTwitter } from 'react-icons/fa';
 
-import gaurav from '../../../assets/gaurav.jpg';
+import gaurav from '../../assets/gaurav.jpg';
 import './Home.scss';
 
 const Home = () => {

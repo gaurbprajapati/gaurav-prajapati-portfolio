@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import "./Skills.scss";
-import { icons } from "../../../Data";
-import { experiences } from "../../../Data";
-import { finishes } from "../../../Data";
+
+import { experiences } from '../../Data';
 import { motion } from "framer-motion";
 
 import { FaPython, FaJava, FaJs, FaCode, FaHtml5, FaCss3, FaReact, FaNodeJs, FaBootstrap, FaGitAlt, FaCodeBranch, FaServer, FaToolbox } from "react-icons/fa";

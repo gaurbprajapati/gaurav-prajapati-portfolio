@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Footer.scss"
-import { socialIcons } from '../../../Data';
+import { socialIcons } from '../../Data';
 import { motion } from 'framer-motion';
 
 const Footer = () => {

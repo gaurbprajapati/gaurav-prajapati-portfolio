@@ -2,7 +2,7 @@ import React from "react";
 import "./About.scss";
 
 import { motion } from "framer-motion";
-import gaurav from "../../../assets/gaurav about.jpg";
+import gaurav from "../../assets/gaurav about.jpg";
 const About = () => {
   return (
     <div className="container " id="about">

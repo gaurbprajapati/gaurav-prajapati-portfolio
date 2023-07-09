@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Contact.scss";
-import { contacts } from '../../../Data';
-import { socialIcons } from '../../../Data';
+import { contacts } from '../../Data';
+import { socialIcons } from '../../Data';
 import { motion } from 'framer-motion';
 import { FaGithub, FaLinkedin, FaDev, FaCodepen, FaEnvelope, FaTwitter } from 'react-icons/fa';
 

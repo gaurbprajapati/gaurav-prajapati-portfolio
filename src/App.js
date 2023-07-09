@@ -2,11 +2,11 @@ import React, { useState, useEffect } from 'react';
 import "./App.css";
 import Loader from "react-loader-spinner";
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
-import About from './components/container/About/About';
-import Contact from './components/container/Contact/Contact';
-import Footer from './components/container/Footer/Footer';
-import Home from './components/container/Home/Home';
-import Skills from './components/container/Skills/Skills';
+import About from './components/About/About';
+import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
+import Home from './components/Home/Home';
+import Skills from './components/Skills/Skills';
 import Navbar from './components/Navbar/Navbar';
 import ClubCard from './components/ClubCard/Clubcard.jsx';
 
