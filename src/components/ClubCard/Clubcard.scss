@@ -26,21 +26,32 @@
     text-align: center;
     margin-bottom: 3rem;
     h1 {
-        color: #bfdaff;
-        font-size: 3.75rem;
+        color: #f0f6ff;
+        font-size: 3.1rem;
         position: relative;
     font-weight: 1000;
     text-align: center;
+    font-family: "Poppins";
 
-        text-shadow: -2px 3px 6px rgba(146, 215, 243, 0.48);
+        text-shadow: -2px 3px 6px rgba(59, 61, 61, 0.48);
+
+        @media screen and (max-width: 800px) {
+          font-size: 2.8rem;
+        }
+        @media screen and (max-width: 450px) {
+          font-size: 2.5rem;
+        }
       }
-        // span {
-        //     color: #e7e1ec;
-        //     text-transform: uppercase;
-        //     font-size: 1.75rem;
-        //     font-weight: 800;
-        //     letter-spacing: 5px;}
-        // text-shadow: -2px 3px 6px rgba(0, 0, 0, 0.48);
+      span {
+        font-size: 0.9rem;
+        color:#f2a900;
+        @media screen and (max-width: 800px) {
+          font-size: 0.8rem;
+        }
+        @media screen and (max-width: 450px) {
+          font-size: 0.6rem;
+        }
+      }
 
   } 
 
@@ -54,23 +65,25 @@
 
 
     @media screen and (max-width: 350px) {
+      
     }
     button {
       color: #000;
-      background: #fff;
-      padding: 0.65rem 1rem;
-      border-radius: 14px;
-      font-size: 1rem;
-      text-transform: capitalize;
-      cursor: pointer;
-      border: none;
-      margin-top: 0.7rem;
-      font-family: "Poppins";
-      &.active {
-        background: #9d33f4;
-        color: #fff;
-      }
-    }
+          background: #fff;
+          padding: 0.65rem 1rem;
+          border-radius: 10px;
+          font-size: 0.85rem;
+          text-transform: capitalize;
+          cursor: pointer;
+          border: none;
+          margin-top: 1rem;
+          font-family: "Poppins";
+
+          &.active {
+              background: #8c12f0;
+              color: #fff;
+          }
+  }
   }
   .workImages {
     margin-top: 5rem;
