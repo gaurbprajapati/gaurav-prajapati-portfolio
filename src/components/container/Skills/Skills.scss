@@ -1,0 +1,207 @@
+#skills{
+  // background-color: #c4cbda;
+}
+.select {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 5rem;
+    
+    button {
+        color: #000;
+            background: #fff;
+            padding: 0.65rem 1rem;
+            border-radius: 10px;
+            font-size: 0.85rem;
+            text-transform: capitalize;
+            cursor: pointer;
+            border: none;
+            margin-top: 1rem;
+            font-family: "Poppins";
+
+            &.active {
+                background: #8c12f0;
+                color: #fff;
+            }
+    }
+}
+.skills {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 700px;
+  row-gap: 4rem;
+
+  @media screen and(max-width: 500px) {
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+  }
+  .tools {
+    display: flex;
+    justify-content: center;
+    svg {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        color: #fff;
+    }
+  }
+}
+
+.portfolio {
+  h2 {
+    // text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .skills {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 1rem;
+
+    .skill {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+
+      .icon {
+        width: 100%;
+        height: 60%;
+        background-color: #000016;
+        color: #8c12f0;
+        font-size: 4rem;
+        margin-bottom: 1rem;
+        @media screen and (max-width: 800px) {
+          width: 50%;
+          height: 50%;
+        font-size: 2rem;
+
+        }
+        @media screen and (max-width: 450px) {
+          width: 50%;
+          height: 50%;
+        font-size: 1.7rem;
+
+        }
+      }
+
+      span {
+        font-size: 1.2rem;
+        color: #f2f2f2;
+        @media screen and (max-width: 800px) {
+          font-size: 0.8rem;
+        }
+        @media screen and (max-width: 450px) {
+          font-size: 0.6rem;
+        }
+      }
+    }
+  }
+}
+
+
+.experiencs {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+    color: #fff;
+    .experience {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 3rem;
+      span {
+          font-size: 1.75rem;
+          padding-left: 2.5rem;
+
+          @media screen and(max-width: 405px) {
+            font-size: 1rem;
+          }
+        }        
+        .position {
+          width: 300px;
+          padding-left: 2.5rem;
+           h3 {
+             font-size: 1.1rem;
+             @media screen  and(max-width: 405px){
+               font-size: 0.85rem;
+             }
+           }
+          p {
+            font-size: 0.75rem;
+            opacity: 0.9;
+
+            @media screen and(max-width: 405px) {
+              font-size: 0.65rem;
+            }
+          }
+          li{
+            font-size: 0.75rem;
+            opacity: 0.6;
+
+            @media screen and(max-width: 405px) {
+              font-size: 0.65rem;
+            }
+          }
+        }
+    }
+  
+}
+
+.education-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 2rem 0;
+
+  .education-item {
+    width: 30%;
+    padding: 1rem;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+
+    h4 {
+      margin-bottom: 0.5rem;
+      font-size: 1.2rem;
+      font-weight: bold;
+      @media screen and (max-width: 800px) {
+        font-size: 0.8rem;
+      }
+      @media screen and (max-width: 450px) {
+        font-size: 0.6rem;
+      }
+    }
+
+    p {
+      margin: 0.2rem 0;
+      font-size: 0.9rem;
+      @media screen and (max-width: 800px) {
+        font-size: 0.8rem;
+      }
+      @media screen and (max-width: 450px) {
+        font-size: 0.6rem;
+      }
+    }
+  }
+}
+
+
+// .finishes_container {
+//   display: flex;
+//   justify-content: center;
+//   margin-top: 5rem;
+//   text-align: center;
+//   flex-wrap: wrap;
+//   gap: 2rem;
+//   color: #fff;
+
+//   .number {
+//     color: #8c12f0;
+//     font-size: 1.7rem;
+//   }
+// }
