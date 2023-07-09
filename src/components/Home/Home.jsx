@@ -77,7 +77,7 @@ const Home = () => {
         <a href="mailto:gauravprajapati094@gmail.com" target="_blank" rel="noopener noreferrer">
           <FaEnvelope className="icon" />
         </a>
-        <a href="/" target="_blank" rel="noopener noreferrer">
+        <a href="https://twitter.com/varu_____" target="_blank" rel="noopener noreferrer">
           <FaTwitter className="icon" />
         </a>
       </div>
