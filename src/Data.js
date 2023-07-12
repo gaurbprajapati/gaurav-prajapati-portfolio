@@ -3,7 +3,7 @@ import { DiJavascript } from "react-icons/di";
 import { SiTypescript } from "react-icons/si";
 import { BsMedium } from "react-icons/bs";
 
-import work3 from './assets/work3.png'
+// import work3 from './assets/work3.png'
 import work5 from "./assets/work5.png";
 import work6 from "./assets/work6.png";
 
