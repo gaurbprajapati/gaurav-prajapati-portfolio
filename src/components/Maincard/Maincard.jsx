@@ -17,7 +17,7 @@ function Maincard(props) {
             whileHover={{ scale: 1.1 }}
             transition={{ duration: 0.5, type: "tween" }}
             className="body_inner"
-            key={index} // Add unique key prop
+            key={index} 
           >
             <a target="_black" className="links" href={dataval.github}>
               

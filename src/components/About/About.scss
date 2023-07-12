@@ -14,7 +14,7 @@
         height: 350px;
         justify-self: center;
         border-radius: 5px;
-        box-shadow: 0 0 20px #f2a900;        ;
+        box-shadow: 0 0 20px #f2a900; 
 
         img {
             object-fit: cover;
@@ -44,28 +44,7 @@
           }
         }
 
-        .contact-container {
-            display: flex;
-            flex-wrap: wrap;
-          
-            .contact-info {
-              flex: 1 1 50%;
-              padding: 1rem;
-              border: 1px solid #ccc;
-          
-              h3 {
-                font-size: 1rem;
-                font-weight: bold;
-                margin-bottom: 0.5rem;
-              }
-          
-              p {
-                font-size: 0.9rem;
-                margin: 0;
-              }
-            }
-          }
-          
+       
     }
 
     

@@ -71,12 +71,6 @@ export const experiences = [
     discription: " I am worked as a doubt solverfor practice problems of competitive programming and Solved more than 100 doubts",
     Skills: "Python, Java, Data Structures and Algorithms."
   }
-  // {
-  //   id: 3,
-  //   year: "2019",
-  //   position: "Intern Web Dveloper",
-  //   company: "shop.com.mm"
-  // }
 ]
 export const finishes = [
   {
@@ -126,7 +120,7 @@ export const Clubdata = [
     category: "Reactjs",
     discription: "Complete responsive portfolio built using Reactjs , Scss , Framermotion",
     github: "https://github.com/gaurbprajapati/gaurav-prajapati-portfolio",
-    live: "#"
+    live: "https://gauravprajapati.netlify.app"
   },
   {
     id: 4,
@@ -164,17 +158,17 @@ export const Clubdata = [
     discription: "Users to access breaking news headlines and summaries in 40 words or less for quick and easy consumption of news .There is list all News organization , news categories, search option ,Tech used:- REACTJS",
     github: "https://github.com/gaurbprajapati/new-app",
     live: "https://github.com/gaurbprajapati/new-app"
-  },
+  }
 
-  {
-    id: 7,
-    img: work3,
-    name: "Face Emotion recognisation",
-    category: "Python-Django",
-    discription: "This project uses machine learning algorithms to detect and classify human facial expressions into emotions such as sadness, happiness, fear, anger, surprise and disgust. etc.",
-    github: "https://github.com/gaurbprajapati/face-emotion-recognition",
-    live: "https://github.com/gaurbprajapati/face-emotion-recognition"
-  },
+  // {
+  //   id: 7,
+  //   img: work3,
+  //   name: "Face Emotion recognisation",
+  //   category: "Python-Django",
+  //   discription: "This project uses machine learning algorithms to detect and classify human facial expressions into emotions such as sadness, happiness, fear, anger, surprise and disgust. etc.",
+  //   github: "https://github.com/gaurbprajapati/face-emotion-recognition",
+  //   live: "https://github.com/gaurbprajapati/face-emotion-recognition"
+  // },
 
 ]
 

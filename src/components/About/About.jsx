@@ -37,7 +37,6 @@ const About = () => {
  
           <ul>
             <li>I am 21 Year old Full Stack Developer and Final Year BTECH computer Science student at NIET India .</li>
-            {/* <li>Full Stack Developer based in New Delhi , India.</li> */}
             <li>
               I am Specialize in both FrontEnd and BackEnd Development, allowing me
               to create comprehensive and cohesive software solutions.
@@ -47,28 +46,10 @@ const About = () => {
             </li>
             <li>I have a strong academic background in technical courses such as Data Structures and Algorithms , Operating Systems, DBMS , Computer Networks and Object Oriented Programming.</li>
             <li>Constantly learning and adapting in the ever-evolving world of Technology .</li>
-            {/* <li>Crafting digital experiences through elegant code and pixel-perfect designs.</li> */}
             <li>Passionate about turning ideas into beautifully functional websites.</li>
          <li>Transforming complex concepts into intuitive and user-friendly web applications.</li>
           </ul>
-        {/* <div className="contact-container"> */}
-      {/* <div className="contact-info">
-        <h3>Age</h3>
-        <p>25</p>
-      </div>
-      <div className="contact-info">
-        <h3>Phone</h3>
-        <p>+91 973-703-9241</p>
-      </div>
-      <div className="contact-info">
-        <h3>Email</h3>
-        <p>alfaizkhan2810@gmail.com</p>
-      </div>
-      <div className="contact-info">
-        <h3>Place</h3>
-        <p>Vadodara, Gujarat, India</p>
-      </div>
-    </div> */}
+      
         </motion.div>
 
       </div>
