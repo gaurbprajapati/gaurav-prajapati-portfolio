@@ -52,32 +52,32 @@ const Home = () => {
       </div>
 
       <div className="actions">
-        <motion.a href="#contact" whileHover={{ scale: 1.1 }} variants={moveVariants} animate="animation">
+        <motion.a href={"#contact"} whileHover={{ scale: 1.1 }} variants={moveVariants} animate="animation">
           connect with me
         </motion.a>
 
-        <motion.a href="https://drive.google.com/file/d/1y0RLp-8WlBSexLbYfkSxspeXe7PmRMWM/view?usp=sharing" target='_black' whileHover={{ scale: 1.1 }} variants={moveVariants} animate="animation">
+        <motion.a href={"https://drive.google.com/file/d/1y0RLp-8WlBSexLbYfkSxspeXe7PmRMWM/view?usp=sharing"} target='_black' whileHover={{ scale: 1.1 }} variants={moveVariants} animate="animation">
           SEE MY RESUME
         </motion.a>
       </div>
 
       <div className="social-icons">
-        <a href="https://github.com/gaurbprajapati" target="_blank" rel="noopener noreferrer">
+        <a href={"https://github.com/gaurbprajapati"} target="_blank" rel="noopener noreferrer">
           <FaGithub className="icon" />
         </a>
-        <a href="https://www.linkedin.com/in/gaurav-prajapati-297513188/" target="_blank" rel="noopener noreferrer">
+        <a href={"https://www.linkedin.com/in/gaurav-prajapati-297513188/"} target="_blank" rel="noopener noreferrer">
           <FaLinkedin className="icon" />
         </a>
-        <a href="https://dev.to/gaurbprajapati" target="_blank" rel="noopener noreferrer">
+        <a href={"https://dev.to/gaurbprajapati"} target="_blank" rel="noopener noreferrer">
           <FaDev className="icon" />
         </a>
-        <a href="https://codesandbox.io/u/gaurbprajapati" target="_blank" rel="noopener noreferrer">
+        <a href={"https://codesandbox.io/u/gaurbprajapati"} target="_blank" rel="noopener noreferrer">
           <FaCodepen className="icon" />
         </a>
-        <a href="mailto:gauravprajapati094@gmail.com" target="_blank" rel="noopener noreferrer">
+        <a href={"mailto:gauravprajapati094@gmail.com"} target="_blank" rel="noopener noreferrer">
           <FaEnvelope className="icon" />
         </a>
-        <a href="https://twitter.com/varu_____" target="_blank" rel="noopener noreferrer">
+        <a href={"https://twitter.com/varu_____"} target="_blank" rel="noopener noreferrer">
           <FaTwitter className="icon" />
         </a>
       </div>

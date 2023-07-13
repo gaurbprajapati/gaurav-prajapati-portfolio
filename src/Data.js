@@ -3,7 +3,7 @@ import { DiJavascript } from "react-icons/di";
 import { SiTypescript } from "react-icons/si";
 import { BsMedium } from "react-icons/bs";
 
-// import work3 from './assets/work3.png'
+import work3 from './assets/work3.png'
 import work5 from "./assets/work5.png";
 import work6 from "./assets/work6.png";
 
@@ -159,16 +159,16 @@ export const Clubdata = [
     github: "https://github.com/gaurbprajapati/new-app",
     live: "https://github.com/gaurbprajapati/new-app"
   }
-
-  // {
-  //   id: 7,
-  //   img: work3,
-  //   name: "Face Emotion recognisation",
-  //   category: "Python-Django",
-  //   discription: "This project uses machine learning algorithms to detect and classify human facial expressions into emotions such as sadness, happiness, fear, anger, surprise and disgust. etc.",
-  //   github: "https://github.com/gaurbprajapati/face-emotion-recognition",
-  //   live: "https://github.com/gaurbprajapati/face-emotion-recognition"
-  // },
+  ,
+  {
+    id: 7,
+    img: work3,
+    name: "Face Emotion recognisation",
+    category: "Python-Django",
+    discription: "This project uses machine learning algorithms to detect and classify human facial expressions into emotions such as sadness, happiness, fear, anger, surprise and disgust. etc.",
+    github: "https://github.com/gaurbprajapati/face-emotion-recognition",
+    live: "https://github.com/gaurbprajapati/face-emotion-recognition"
+  },
 
 ]
 
