@@ -56,7 +56,7 @@ const Home = () => {
           connect with me
         </motion.a>
 
-        <motion.a href={"https://drive.google.com/file/d/1y0RLp-8WlBSexLbYfkSxspeXe7PmRMWM/view?usp=sharing"} target='_black' whileHover={{ scale: 1.1 }} variants={moveVariants} animate="animation">
+        <motion.a href={"https://drive.google.com/file/d/1D7xcu1h37nHO0coOSlD1Ofv8TEPKLy-C/view?usp=drive_link"} target='_black' whileHover={{ scale: 1.1 }} variants={moveVariants} animate="animation">
           SEE MY RESUME
         </motion.a>
       </div>

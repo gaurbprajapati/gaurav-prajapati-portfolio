@@ -169,6 +169,15 @@ export const Clubdata = [
     github: "https://github.com/gaurbprajapati/face-emotion-recognition",
     live: "https://github.com/gaurbprajapati/face-emotion-recognition"
   },
+  {
+    id: 8,
+    img: work3,
+    name: "AGILEFLOW",
+    category: "Python-Django",
+    discription: "1. Enhanced backend efficiency for admin-managed employee, team, and task operations, while facilitating progress monitoring through streamlined handling.Created personalized employee dashboards for seamless task status updates within a secure environment, featuring role-based access controls for data privacy.",
+    github: "https://github.com/gaurbprajapati/Office-Employee-and-Task-Work-Management-System",
+    live: "https://github.com/gaurbprajapati/Office-Employee-and-Task-Work-Management-System"
+  },
 
 ]
 
